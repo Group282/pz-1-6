@@ -1,0 +1,23 @@
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .app-main-wrap {
+    display: inline-flex;
+    justify-content: space-between;
+
+  }
+  .app-main-wrap .app-sidebar{
+
+    width: 33%;
+    margin-left:var(--gutter-width);
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}

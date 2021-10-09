@@ -1,0 +1,109 @@
+html {
+  margin: 0;
+  font-size: 20px;
+  font-family: Arial;
+}
+body {
+  display: grid;
+  grid-template: "hd"
+                 "app-main-wrap"
+                 "sidebar"
+                 "foot";
+  width: 100%;
+  grid-row-gap: 10px;
+  justify-items: center;
+  height: 100%;
+  margin: 0 auto;
+}
+/* grid layout for header*/
+ header{
+   display: grid;
+   grid-area: hd;
+   grid-template: "head links button" / min-content auto;
+   align-items: baseline;
+ }
+header .app-nav-list{ margin-right: 0;
+  grid-area: links;
+  display: grid;
+  grid-template: "link1 link2 link3";
+}
+.link1{
+  grid-area: link1
+}
+.link2{
+  grid-area: link2
+}
+.link3{
+  grid-area: link3
+}
+.app-sidebar{
+  grid-area: sidebar;
+}
+
+/*header styles*/
+header{
+  width: 100%;
+  margin: var(--gutter-width);
+ }
+header > h2{
+  grid-area: head;
+  vertical-align: middle;
+  margin: 0;
+}
+header > h2 > a{
+  color: var(--title-color-mobile);
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+header > nav {
+  margin-right: auto;
+  margin-top: 7px;
+}
+header .app-nav-list > li{
+  margin: var(--gutter-width);
+}
+header .app-nav-list > li a {
+  text-decoration: none;
+  color: var(--title-color-mobile);
+}
+header .app-main-btn {
+  border: none;
+  padding: calc(var(--gutter-width) / 2) var(--gutter-width);
+  background: var(--button-color-mobile);
+  color: white;
+  text-transform: uppercase;
+}
+/*main section*/
+.app-main-wrap{
+  grid-area: app-main-wrap;
+  margin: 0 calc(var(--gutter-width) * 2);
+  box-sizing: border-box;
+}
+.app-main-wrap .app-main{
+  text-align: center;
+  width: 100%;
+}
+.app-main-wrap .app-sidebar{
+  border: 1px solid #000;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--gutter-width);
+  margin-top: var(--gutter-width);
+}
+.app-main-wrap .desc {
+  margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
+}
+.app-main-wrap .app-bg-cont img{
+  width: 100%;
+}
+footer{
+  grid-area: foot;
+  margin: 0 calc(var(--gutter-width) * 2);
+  height: var(--footer-height);
+  text-align: center;
+  overflow: auto;
+  box-sizing: border-box;
+  z-index: auto;
+}
