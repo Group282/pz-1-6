@@ -13,7 +13,9 @@ header {
   height: var(--header-height);
   box-sizing: border-box;
 }
+.some_cladd {
 
+}
 .virsta-header{
   display: flex;
   flex-wrap: wrap;
