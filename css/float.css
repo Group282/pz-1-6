@@ -49,22 +49,20 @@ header > .app-main-btn {
 
 /*main*/
 .app-main-wrap {
-    margin: 0 calc(var(--gutter-width) * 2);
-
-    box-sizing: border-box;
+  margin: 0 calc(var(--gutter-width) * 2);
+  box-sizing: border-box;
 }
 .app-main-wrap .app-main{
     text-align: center;
-
     width: 100%;
 }
 .app-main-wrap .app-sidebar{
-    border: 1px solid #000;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-    padding: var(--gutter-width);
-    margin-top: var(--gutter-width);
+  border: 1px solid #000;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--gutter-width);
+  margin-top: var(--gutter-width);
 }
 .app-main-wrap .desc {
     margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
@@ -78,6 +76,6 @@ footer {
     text-align: center;
     overflow: auto;
     box-sizing: border-box;
-  z-index: auto;
+    z-index: auto;
 }
 
