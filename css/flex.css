@@ -1,114 +1,64 @@
 html {
   margin: 0;
   font-size: 14px;
-  font-family: Arial;
+  height: 100%;
 }
-
 body {
   height: 100%;
 }
-
-header {
-  padding: var(--gutter-width) calc(var(--gutter-width) * 2);
+header{
+  display: flex;
+  justify-content: space-between;
   height: var(--header-height);
-  box-sizing: border-box;
 }
-
-.virsta-header{
+#header{
   display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
-  min-height: 150px;
-  width: 100vw;
+  color: var(--title-color-desktop);
+  margin-left: 20px;
+  justify-content: space-between;
 }
-
-header > h2 {
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0;
-}
-
-header > h2 > a{
-  color: var(--title-color-mobile);
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-header > nav {
-  justify-content: flex-start;
-  margin-top: 7px;
-}
-
-.app-nav-list{
+#header>ul{
   display: flex;
-  flex-direction: row;
+  padding-top: 20px;
 }
-
-header .app-nav-list > li{
-  margin-left: var(--gutter-width);
+#header>ul li {
+  font-size: 1.25rem;
+  margin-left: 20px;
 }
-header .app-nav-list > li a {
-  text-decoration: none;
-  color: var(--title-color-mobile);
-}
-
-header .viti-button {
-  border: none;
-  padding: calc(var(--gutter-width) / 2) var(--gutter-width);
-  background: var(--button-color-mobile);
+header>button{
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 40px;
+  width: 150px;
+  font-size: 1.25rem;
   color: white;
-  text-transform: uppercase;
+  border: none;
+  background: var(--button-color-desktop);
 }
-
-header > .viti-button {
-  margin-left: 30vw;
-  justify-content: flex-end;
-}
-
-/*main*/
-.app-main-wrap{
+#all{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
 }
-
-.app-main-wrap {
-  margin: 0 calc(var(--gutter-width) * 2);
-  height: calc(100% - var(--header-height) - var(--footer-height));
-  box-sizing: border-box;
+#info{
+  width: 50%;
+  text-align: center;
 }
-
-.app-main{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.app-main-wrap .app-sidebar{
-  border: 1px solid #000;
-  box-sizing: border-box;
-  padding: var(--gutter-width);
-  margin-top: var(--gutter-width);
-}
-
-.app-main-wrap .desc {
-  margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
-}
-
-.app-main-wrap .app-bg-cont img{
+#info>img{
+  margin: 20px;
   width: 100%;
 }
-
-footer {
-  margin: 0 calc(var(--gutter-width) * 2);
-  overflow: auto;
-  box-sizing: border-box;
+#img-mob{
+  display: none;
 }
-
-.viti-footer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#img-tabl{
+  display: none;
+}
+#sidebar{
+  border: 1px solid black;
+  width: 30%;
+  text-align: center;
+}
+footer{
+  text-align: center;
+  height: var(--footer-height);
 }
