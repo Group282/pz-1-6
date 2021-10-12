@@ -101,6 +101,7 @@ header > h2 > a {
   .app-desktop {
     display: inline;
   }
+<<<<<<< HEAD
   header > h2 > a {
     color: var(--title-color-desktop);
   }
@@ -139,6 +140,8 @@ header > h2 > a {
   }
 
 
+=======
+>>>>>>> 4fdab793d53d7ef9ff30cad83b10832bf6ff1a5a
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/

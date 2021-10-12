@@ -15,7 +15,11 @@
 
 
 /*Medium devices (tablets, 768px and up)*/
+<<<<<<< HEAD
 @media (min-width: 300px) {
+=======
+@media (min-width: 768px) {
+>>>>>>> 4fdab793d53d7ef9ff30cad83b10832bf6ff1a5a
 
 
 }
