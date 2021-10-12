@@ -1,12 +1,12 @@
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  .GEV_Body{
+  .gev_body{
     display: flex;
     flex-direction: column;
 
   }
 
-  .GEV_Footer{
+  .gev_footer{
     left: 0; bottom: 0;
     width: 100%;
 
@@ -15,23 +15,23 @@
 
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+@media (min-width: 300px) {
 
 
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .GEV_Body{
+  .gev_body{
     display: flex;
     flex-direction: row;
   }
 
-  .GEV_Body-sidebar{
+  .gev_body-sidebar{
     height: 100%;
   }
 
-  .GEV_Footer{
+  .gev_footer{
     text-align: center;
     box-sizing: border-box;
 

@@ -1,4 +1,4 @@
-.GEV_Header{
+.gev_header{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -7,31 +7,31 @@
 
 }
 
-.GEV_Header > H2 > a{
+.gev_header > H2 > a{
   text-decoration: none;
 }
 
-.GEV_Header > ul {
+.gev_header > ul {
   display: flex;
   align-self: center;
   margin-bottom: 12px;
   padding: 0 10px;
 }
-.GEV_Header > li{
+.gev_header > li{
   display: inline;
 }
 
-.GEV_Header > ul > li > a{
+.gev_header > ul > li > a{
   text-decoration: none;
   margin: 0 10px;
-  color: var(--title-color-mobile);
+  /*color: var(--title-color-mobile);*/
 }
 
-.GEV_Header > button{
+.gev_header > button{
   margin-left: auto;
 }
 
-.GEV_Header-button {
+.gev_header-button {
   border: none;
   padding: calc(var(--gutter-width) / 2) var(--gutter-width);
   background: var(--button-color-mobile);
@@ -39,7 +39,7 @@
   text-transform: uppercase;
 }
 
-.GEV_Body{
+.gev_body{
   margin: 0 calc(var(--gutter-width) * 2);
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@
 
 }
 
-.GEV_Body-centre{
+.gev_body-centre{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,18 +55,18 @@
 }
 
 
-.GEV_Body-centre > div >p{
+.gev_body-centre > div >p{
   text-align: center;
 }
 
 
-.GEV_Body-sidebar{
+.gev_body-sidebar{
   border: 1px solid #000;
   padding: var(--gutter-width);
   margin-top: var(--gutter-width);
 }
 
-.GEV_Footer{
+.gev_footer{
   text-align: center;
   overflow: auto;
 

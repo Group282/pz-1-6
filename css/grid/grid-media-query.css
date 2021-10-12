@@ -1,6 +1,18 @@
 /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) {
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+
+    grid-column: 1;
+    grid-row: 4;
+
+  }
+}
+
 @media (min-width: 576px) {
-  .GEV_GRID_BODY-sidebar{
+  .gev_grid_body-sidebar{
     border: 1px solid #000;
     padding: var(--gutter-width);
     margin-top: var(--gutter-width);
@@ -14,7 +26,7 @@
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  .GEV_GRID_BODY-sidebar{
+  .gev_grid_body-sidebar{
     border: 1px solid #000;
     padding: var(--gutter-width);
     margin-top: var(--gutter-width);
@@ -28,7 +40,7 @@
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .GEV_GRID_BODY-sidebar{
+  .gev_grid_body-sidebar{
     border: 1px solid #000;
     padding: var(--gutter-width);
     margin-top: var(--gutter-width);
@@ -41,7 +53,7 @@
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-  .GEV_GRID_BODY-sidebar{
+  .gev_grid_body-sidebar{
     border: 1px solid #000;
     padding: var(--gutter-width);
     margin-top: var(--gutter-width);

@@ -19,11 +19,11 @@ header > h2 > a {
   color: var(--title-color-mobile);
 }
 
-.GEV_Header > ul > li > a{
+.gev_header > ul > li > a{
   color: var(--title-color-mobile);
 }
 
-.GEV_GRID_Header > ul > li > a{
+.gev_grid_header > ul > li > a{
   color: var(--title-color-mobile);
 }
 
@@ -58,11 +58,11 @@ header > h2 > a {
     background: var(--button-color-table);
   }
 
-   .GEV_Header-button {
+   .gev_header-button {
     background: var(--button-color-table);
   }
 
-  .GEV_GRID_Header > button{
+  .gev_grid_header > button{
     background: var(--button-color-table);
   }
 
@@ -82,11 +82,11 @@ header > h2 > a {
     display: inline;
   }
 
-  .GEV_Header > ul > li > a{
+  .gev_header > ul > li > a{
     color: var(--title-color-table);
   }
 
-  .GEV_GRID_Header > ul > li > a{
+  .gev_grid_header > ul > li > a{
     color: var(--title-color-table);
   }
 
@@ -101,6 +101,44 @@ header > h2 > a {
   .app-desktop {
     display: inline;
   }
+  header > h2 > a {
+    color: var(--title-color-desktop);
+  }
+
+  header .app-nav-list > li a {
+    text-decoration: none;
+    color: var(--title-color-desktop);
+  }
+
+  header .app-main-btn {
+    background: var(--button-color-desktop);
+  }
+
+  .gev_header-button {
+    background: var(--button-color-desktop);
+  }
+
+  .gev_grid_header > button{
+    background: var(--button-color-desktop);
+  }
+
+  h1 {
+    color: var(--title-color-desktop);
+  }
+
+  h2 {
+    color: var(--title-color-desktop);
+  }
+
+  .gev_header > ul > li > a{
+    color: var(--title-color-desktop);
+  }
+
+  .gev_grid_header > ul > li > a{
+    color: var(--title-color-desktop);
+  }
+
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -118,11 +156,11 @@ header > h2 > a {
     background: var(--button-color-desktop);
   }
 
-   .GEV_Header-button {
+   .gev_header-button {
     background: var(--button-color-desktop);
   }
 
-  .GEV_GRID_Header > button{
+  .gev_grid_header > button{
     background: var(--button-color-desktop);
   }
 
@@ -134,11 +172,11 @@ header > h2 > a {
     color: var(--title-color-desktop);
   }
 
-  .GEV_Header > ul > li > a{
+  .gev_header > ul > li > a{
     color: var(--title-color-desktop);
   }
 
-  .GEV_GRID_Header > ul > li > a{
+  .gev_grid_header > ul > li > a{
     color: var(--title-color-desktop);
   }
 }
