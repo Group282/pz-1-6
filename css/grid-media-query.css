@@ -29,5 +29,13 @@
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
+  header .app-main-btn {
+    margin-left: 25%;
+    width: 75%;
+    border: none;
+  padding:   calc(var(--gutter-width) / 2) var(--gutter-width);
+    background: var(--button-color-mobile);
+    color: white;
+    text-transform: uppercase;
+  }
 }

@@ -9,11 +9,10 @@ body {
                  "app-main-wrap"
                  "sidebar"
                  "foot";
-  width: 100%;
-  grid-row-gap: 10px;
+  grid-row-gap: 5px;
   justify-items: center;
   height: 100%;
-  margin: 0 auto;
+  margin: var(--gutter-width);
 }
 /* grid layout for header*/
  header{
@@ -61,13 +60,15 @@ header > nav {
   margin-top: 7px;
 }
 header .app-nav-list > li{
-  margin: var(--gutter-width);
+  margin: 15px;
 }
 header .app-nav-list > li a {
   text-decoration: none;
   color: var(--title-color-mobile);
 }
+
 header .app-main-btn {
+
   border: none;
   padding: calc(var(--gutter-width) / 2) var(--gutter-width);
   background: var(--button-color-mobile);
