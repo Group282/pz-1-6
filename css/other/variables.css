@@ -5,9 +5,9 @@
   --title-color-table: #800080;
   --title-color-desktop: blue;
 
-  --button-color-mobile: blue;
-  --button-color-table: brown;
-  --button-color-desktop: red;
+  --button-color-mobile: #ffff00;
+  --button-color-table: #ffff00;
+  --button-color-desktop: #ffff00;
 
   --gutter-width: 20px;
   --header-height: 100px;
