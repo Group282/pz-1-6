@@ -24,11 +24,11 @@
 .gev_header > ul > li > a{
   text-decoration: none;
   margin: 0 10px;
-<<<<<<< HEAD
+
   /*color: var(--title-color-mobile);*/
-=======
+
   color: var(--title-color-mobile);
->>>>>>> 4fdab793d53d7ef9ff30cad83b10832bf6ff1a5a
+
 }
 
 .gev_header > button{
