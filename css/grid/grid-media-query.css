@@ -1,5 +1,5 @@
 /*Small devices (landscape phones, 576px and up)*/
-<<<<<<< HEAD
+
 @media (min-width: 300px) {
   .gev_grid_body-sidebar{
     border: 1px solid #000;
@@ -12,8 +12,7 @@
   }
 }
 
-=======
->>>>>>> 4fdab793d53d7ef9ff30cad83b10832bf6ff1a5a
+
 @media (min-width: 576px) {
   .gev_grid_body-sidebar{
     border: 1px solid #000;
