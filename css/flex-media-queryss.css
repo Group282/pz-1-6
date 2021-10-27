@@ -1,16 +1,10 @@
-/*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 320px) {
   .app-sidebar{
     width: 100vw;
   }
 }
-
-/*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-
 }
-
-/*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   .app-main-wrap{
     display: flex;
@@ -24,7 +18,6 @@
   .app-main{
     width: 80vw;
   }
-
   .app-sidebar{
     display: flex;
     width: 20vw;
@@ -37,7 +30,5 @@
   }
 }
 
-/*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
 }
