@@ -4,9 +4,11 @@ html {
     font-family: Arial;
     height: 100%;
 }
+
 body {
     height: 100%;
 }
+
 header {
     padding: var(--gutter-width) calc(var(--gutter-width) * 2);
     height: var(--header-height);
@@ -55,7 +57,7 @@ header > .app-main-btn {
 }
 .app-main-wrap .app-main{
     text-align: center;
-    width: 100%;
+    width: 50%;
 }
 .app-main-wrap .app-sidebar{
     border: 1px solid #000;
@@ -69,7 +71,7 @@ header > .app-main-btn {
     margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
 }
 .app-main-wrap .app-bg-cont img{
-    width: 100%;
+    width: 50%;
 }
 footer {
     margin: 0 calc(var(--gutter-width) * 2);
