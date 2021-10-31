@@ -1,0 +1,100 @@
+html {
+  margin: 0;
+  font-size: 14px;
+  font-family: Arial;
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+header {
+  padding: var(--gutter-width) calc(var(--gutter-width) * 2);
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  /* ALIGN-SELF: end; */
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+header > h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  margin: 0;
+}
+header > h2 > a{
+  color: var(--title-color-mobile);
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+}
+header > nav {
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 3;
+  margin-top: 7px;
+}
+
+header .app-nav-list > li{
+  display: inline-flex;
+  align-items: flex-start;
+  margin-left: var(--gutter-width);
+}
+header .app-nav-list > li a {
+  display: flex;
+
+  text-decoration: none;
+  color: var(--title-color-mobile);
+}
+header .app-main-btn {
+  align-self: flex-end;
+  border: none;
+  padding: calc(var(--gutter-width) / 2) var(--gutter-width);
+  background: var(--button-color-mobile);
+  color: white;
+  text-transform: uppercase;
+}
+header > .app-main-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/*main*/
+.app-main-wrap {
+  margin: 0 calc(var(--gutter-width) * 2);
+  height: calc(100% - var(--header-height) - var(--footer-height));
+  box-sizing: border-box;
+}
+.app-main-wrap .app-main{
+  text-align: center;
+  width: 100%;
+}
+.app-main-wrap .app-sidebar{
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--gutter-width);
+  margin-top: var(--gutter-width);
+}
+.app-main-wrap .desc {
+  margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
+}
+.app-main-wrap .app-bg-cont img{
+  width: 100%;
+}
+footer {
+  margin: 0 calc(var(--gutter-width) * 2);
+  height: var(--footer-height);
+  text-align: center;
+  overflow: auto;
+  box-sizing: border-box;
+}
