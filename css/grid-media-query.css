@@ -7,7 +7,7 @@
     ". . . botton" 50%;
   }
 
-  .viti-header-text {
+  .parhom-header-text {
     grid-area: text;
     display: grid;
     grid-template: "text1 text2 text3 text4";
@@ -33,7 +33,7 @@
     height: 1vw;
   }
 
-  .viti-header-text {
+  .parhom-header-text {
     grid-area: text;
     display: grid;
     grid-template: "text1 text2 text3 text4";
@@ -63,7 +63,7 @@
     margin: 0;
   }
 
-  .viti-header-text{
+  .parhom-header-text{
     grid-area: text;
     display: grid;
     grid-template:

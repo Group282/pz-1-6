@@ -28,7 +28,7 @@ header {
                   ". . botton" 20%;
 }
 
-.viti-header-text {
+.parhom-header-text {
   grid-area: text;
   display: grid;
   grid-template: "text1 text1 text1" 50%
@@ -36,7 +36,7 @@ header {
   text-align: left;
 }
 
-header .viti-button {
+header .parhom-button {
   border: none;
   padding: calc(var(--gutter-width) / 2) var(--gutter-width);
   background: var(--button-color-mobile);
@@ -44,24 +44,24 @@ header .viti-button {
   text-transform: uppercase;
 }
 
-.viti-header-text-h2 {
+.parhom-header-text-h2 {
   grid-area: text1;
   margin: 6px;
 }
 
-.viti-header-text-text2 {
+.parhom-header-text-text2 {
   grid-area: text2;
 }
 
-.viti-header-text-text3 {
+.parhom-header-text-text3 {
   grid-area: text3;
 }
 
-.viti-header-text-text4 {
+.parhom-header-text-text4 {
   grid-area: text4;
 }
 
-.viti-header-button {
+.parhom-header-button {
   grid-area: botton;
   margin-left: 20vw;
 }
