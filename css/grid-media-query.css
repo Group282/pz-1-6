@@ -1,0 +1,67 @@
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 300px) {
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+
+    grid-column: 1;
+    grid-row: 4;
+
+  }
+}
+
+
+@media (min-width: 576px) {
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+
+    grid-column: 1;
+    grid-row: 4;
+
+  }
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+
+    grid-column: 2;
+    grid-row: 1/4;
+
+  }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+
+    grid-column: 2;
+    grid-row: 1/4;
+
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+
+    grid-column: 2;
+    grid-row: 1/4;
+
+  }
+}
