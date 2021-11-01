@@ -1,42 +1,29 @@
-html {
-  margin: 0;
-  font-size: 20px;
-  font-family: Arial;
-}
-
-body {
+.gev_grid_header{
   display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 1em;
+
+  padding: var(--gutter-width) calc(var(--gutter-width) * 2);
+  height: var(--header-height);
+}
+.gev_grid_header > H2 > a{
+  text-decoration: none;
 }
 
-body {
-  grid-template: "header" 40vmin
-                  "main"
-                  "sidebar"
-                  "footer" 20vmin;
-  height: 100vh;
-  margin: 0;
+.gev_grid_header > ul > li{
+  display: inline;
+
 }
 
-footer, div, section, aside {
-  padding: 2vw;
+.gev_grid_header > ul > li > a{
+  text-decoration: none;
+  margin: 0 10px;
+  color: var(--title-color-mobile);
 }
 
-header {
-  grid-area: header;
-  display: grid;
-  grid-template: "text text text" 80%
-                  ". . botton" 20%;
-}
-
-.rospirko-header-text {
-  grid-area: text;
-  display: grid;
-  grid-template: "text1 text1 text1" 50%
-                  "text2 text3 text4" 50%;
-  text-align: left;
-}
-
-header .rospirko-button {
+.gev_grid_header > button{
+  justify-self: end;
   border: none;
   padding: calc(var(--gutter-width) / 2) var(--gutter-width);
   background: var(--button-color-mobile);
@@ -44,41 +31,45 @@ header .rospirko-button {
   text-transform: uppercase;
 }
 
-.rospirko-header-text-h2 {
-  grid-area: text1;
-  margin: 6px;
+.gev_grid_body{
+  display: grid;
+  grid-template-columns:1fr 0.1fr;
+  grid-template-rows: 0.2fr 0.2fr 3fr 0.2fr;
+
+  margin: 0 calc(var(--gutter-width) * 2);
 }
 
-.rospirko-header-text-text2 {
-  grid-area: text2;
+.gev_grid_body > H1{
+  justify-self: center;
 }
 
-.rospirko-header-text-text3 {
-  grid-area: text3;
+
+.gev_grid_body > p{
+  grid-row-start: 2;
+  justify-self: center;
 }
 
-.rospirko-header-text-text4 {
-  grid-area: text4;
+.gev_grid_body > ul{
+  grid-row-start: 3;
+  justify-self: center;
+
 }
 
-.rospirko-header-button {
-  grid-area: botton;
-  margin-left: 20vw;
+
+.gev_grid_body-sidebar{
+  border: 1px solid #000;
+  padding: var(--gutter-width);
+  margin-top: var(--gutter-width);
+
+  grid-column: 2;
+  grid-row: 1/4;
+
 }
 
-footer {
-  grid-area: footer;
+
+.gev_grid_footer{
   text-align: center;
-}
+  overflow: auto;
 
-.app-main {
-  grid-area: main;
-  text-align: center;
-}
-
-.app-sidebar {
-  grid-area: sidebar;
-  padding: 20px;
-  border: 3px solid black;
-  margin: 5px;
+  height: var(--footer-height);
 }

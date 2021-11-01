@@ -1,43 +1,49 @@
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 320px) {
-  .app-sidebar{
-    width: 100vw;
+@media (min-width: 576px) {
+  .gev_body{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .gev_footer{
+    left: 0; bottom: 0;
+    width: 100%;
+
   }
 }
+
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
 
-}
+@media (min-width: 300px) {
 
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-  .app-main-wrap{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: 100%;
-    justify-content: space-between;
-    align-items: stretch;
+  @media (min-width: 768px) {
+
+
+
   }
 
-  .app-main{
-    width: 80vw;
+  /*Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+    .gev_body{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .gev_body-sidebar{
+      height: 100%;
+    }
+
+    .gev_footer{
+      text-align: center;
+      box-sizing: border-box;
+
+    }
   }
 
-  .app-sidebar{
-    display: flex;
-    width: 20vw;
-    align-content: stretch;
+  /*Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+
   }
-
-  header > .rospirko-button {
-    margin-left: 50vw;
-    justify-content: flex-end;
-  }
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
 }

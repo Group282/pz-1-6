@@ -2,25 +2,31 @@
 /* No media query for `xs` since this is the default in Bootstrap*/
 /*utils*/
 h1 {
-  font-size: calc(20px + 2vw);
+  font-size: 32px;
   font-weight: bold;
   color: var(--title-color-mobile);
   margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
 }
 
 h2 {
-  font-size: calc(14px + 2vh);
+  font-size: 24px;
   margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
   font-weight: bold;
   color: var(--title-color-mobile);
 }
 
-h3 {
-  font-size: calc(14px + 1vh);
-  margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
-  font-weight: bold;
+header > h2 > a {
   color: var(--title-color-mobile);
 }
+
+.gev_header > ul > li > a{
+  color: var(--title-color-mobile);
+}
+
+.gev_grid_header > ul > li > a{
+  color: var(--title-color-mobile);
+}
+
 
 .clearfix::after {
   content: "";
@@ -33,19 +39,9 @@ h3 {
   display: none;
 }
 
-.app-mobile {
-  display: inline;
-}
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  .app-table {
-    display: none;
-  }
 
-  .app-mobile {
-    display: inline;
-  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -59,6 +55,14 @@ h3 {
   }
 
   header .app-main-btn {
+    background: var(--button-color-table);
+  }
+
+  .gev_header-button {
+    background: var(--button-color-table);
+  }
+
+  .gev_grid_header > button{
     background: var(--button-color-table);
   }
 
@@ -78,6 +82,14 @@ h3 {
     display: inline;
   }
 
+  .gev_header > ul > li > a{
+    color: var(--title-color-table);
+  }
+
+  .gev_grid_header > ul > li > a{
+    color: var(--title-color-table);
+  }
+
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -89,6 +101,46 @@ h3 {
   .app-desktop {
     display: inline;
   }
+
+  header > h2 > a {
+    color: var(--title-color-desktop);
+  }
+
+  header .app-nav-list > li a {
+    text-decoration: none;
+    color: var(--title-color-desktop);
+  }
+
+  header .app-main-btn {
+    background: var(--button-color-desktop);
+  }
+
+  .gev_header-button {
+    background: var(--button-color-desktop);
+  }
+
+  .gev_grid_header > button{
+    background: var(--button-color-desktop);
+  }
+
+  h1 {
+    color: var(--title-color-desktop);
+  }
+
+  h2 {
+    color: var(--title-color-desktop);
+  }
+
+  .gev_header > ul > li > a{
+    color: var(--title-color-desktop);
+  }
+
+  .gev_grid_header > ul > li > a{
+    color: var(--title-color-desktop);
+  }
+
+
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -106,11 +158,27 @@ h3 {
     background: var(--button-color-desktop);
   }
 
+  .gev_header-button {
+    background: var(--button-color-desktop);
+  }
+
+  .gev_grid_header > button{
+    background: var(--button-color-desktop);
+  }
+
   h1 {
     color: var(--title-color-desktop);
   }
 
   h2 {
+    color: var(--title-color-desktop);
+  }
+
+  .gev_header > ul > li > a{
+    color: var(--title-color-desktop);
+  }
+
+  .gev_grid_header > ul > li > a{
     color: var(--title-color-desktop);
   }
 }

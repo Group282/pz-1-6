@@ -1,79 +1,67 @@
-/*Small devices (landscape phones, 425px and up)*/
-@media (min-width: 425px) {
-  header {
-    grid-area: header;
-    display: grid;
-    grid-template: "text text text text" 50%
-    ". . . botton" 50%;
-  }
+/*Small devices (landscape phones, 576px and up)*/
 
-  .rospirko-header-text {
-    grid-area: text;
-    display: grid;
-    grid-template: "text1 text2 text3 text4";
-    text-align: left;
+@media (min-width: 300px) {
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+
+    grid-column: 1;
+    grid-row: 4;
+
   }
 }
 
+
+@media (min-width: 576px) {
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+
+    grid-column: 1;
+    grid-row: 4;
+
+  }
+}
+
+
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  body {
-    grid-template: "header" 15vmin
-    "main"
-    "sidebar"
-    "footer" 20vmin;
-    height: 100vh;
-    margin: 0;
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+
+    grid-column: 2;
+    grid-row: 1/4;
+
   }
 
-  header {
-    grid-area: header;
-    display: grid;
-    grid-template: "text text text text . . botton";
-    height: 1vw;
-  }
-
-  .rospirko-header-text {
-    grid-area: text;
-    display: grid;
-    grid-template: "text1 text2 text3 text4";
-    text-align: left;
-  }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .app-main-wrap .app-main {
-    width: calc(75% - var(--gutter-width));
-    margin: 0 var(--gutter-width) 0 0;
-  }
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
 
-  .app-main-wrap .app-sidebar {
-    width: calc(25% - var(--gutter-width));
-    margin: 0 0 0 var(--gutter-width);
-  }
+    grid-column: 2;
+    grid-row: 1/4;
 
-  body {
-    grid-template:
-      "header header" 20vmin
-      "main   sidebar"
-      "footer footer" 20vmin
-      / 75vw  25vw
-  ;
-    margin: 0;
-  }
-
-  .rospirko-header-text{
-    grid-area: text;
-    display: grid;
-    grid-template:
-      "text1 text2 text3 text4"
-      / 30% 15% 15% 15%
-  ;
   }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+  .gev_grid_body-sidebar{
+    border: 1px solid #000;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
 
+    grid-column: 2;
+    grid-row: 1/4;
+
+  }
 }
