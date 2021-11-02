@@ -19,11 +19,11 @@ header > h2 > a {
   color: var(--title-color-mobile);
 }
 
-.gev_header > ul > li > a{
+.she_header > ul > li > a{
   color: var(--title-color-mobile);
 }
 
-.gev_grid_header > ul > li > a{
+.she_grid_header > ul > li > a{
   color: var(--title-color-mobile);
 }
 
@@ -35,7 +35,7 @@ header > h2 > a {
 }
 
 
-.app-table, .app-desktop {
+.app_table, .app_desktop {
   display: none;
 }
 
@@ -50,19 +50,19 @@ header > h2 > a {
     color: var(--title-color-table);
   }
 
-  header .app-nav-list > li a {
+  header .app_nav_list > li a {
     color: var(--title-color-table);
   }
 
-  header .app-main-btn {
+  header .app_main_btn {
     background: var(--button-color-table);
   }
 
-  .gev_header-button {
+  .she_header_button {
     background: var(--button-color-table);
   }
 
-  .gev_grid_header > button{
+  .she_grid_header > button{
     background: var(--button-color-table);
   }
 
@@ -74,11 +74,11 @@ header > h2 > a {
     color: var(--title-color-table);
   }
 
-  .app-mobile {
+  .app_mobile {
     display: none;
   }
 
-  .app-table {
+  .app_table {
     display: inline;
   }
 
@@ -94,11 +94,11 @@ header > h2 > a {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .app-table {
+  .app_table {
     display: none;
   }
 
-  .app-desktop {
+  .app_desktop {
     display: inline;
   }
 
@@ -106,20 +106,20 @@ header > h2 > a {
     color: var(--title-color-desktop);
   }
 
-  header .app-nav-list > li a {
+  header .app_nav_list > li a {
     text-decoration: none;
     color: var(--title-color-desktop);
   }
 
-  header .app-main-btn {
+  header .app_main_btn {
     background: var(--button-color-desktop);
   }
 
-  .gev_header-button {
+  .she_header_button {
     background: var(--button-color-desktop);
   }
 
-  .gev_grid_header > button{
+  .she_grid_header > button{
     background: var(--button-color-desktop);
   }
 
@@ -131,11 +131,11 @@ header > h2 > a {
     color: var(--title-color-desktop);
   }
 
-  .gev_header > ul > li > a{
+  .she_header > ul > li > a{
     color: var(--title-color-desktop);
   }
 
-  .gev_grid_header > ul > li > a{
+  .she_grid_header > ul > li > a{
     color: var(--title-color-desktop);
   }
 
@@ -149,20 +149,20 @@ header > h2 > a {
     color: var(--title-color-desktop);
   }
 
-  header .app-nav-list > li a {
+  header .app_nav_list > li a {
     text-decoration: none;
     color: var(--title-color-desktop);
   }
 
-  header .app-main-btn {
+  header .app_main_btn {
     background: var(--button-color-desktop);
   }
 
-  .gev_header-button {
+  .she_header_button {
     background: var(--button-color-desktop);
   }
 
-  .gev_grid_header > button{
+  .she_grid_header > button{
     background: var(--button-color-desktop);
   }
 
@@ -174,11 +174,11 @@ header > h2 > a {
     color: var(--title-color-desktop);
   }
 
-  .gev_header > ul > li > a{
+  .she_header > ul > li > a{
     color: var(--title-color-desktop);
   }
 
-  .gev_grid_header > ul > li > a{
+  .she_grid_header > ul > li > a{
     color: var(--title-color-desktop);
   }
 }

@@ -1,4 +1,4 @@
-.gev_grid_header{
+.she_grid_header{
   display: grid;
   grid-template-columns: 0.2fr 1fr 1fr;
   align-items: center;
@@ -7,22 +7,22 @@
   padding: var(--gutter-width) calc(var(--gutter-width) * 2);
   height: var(--header-height);
 }
-.gev_grid_header > H2 > a{
+.she_grid_header > H2 > a{
   text-decoration: none;
 }
 
-.gev_grid_header > ul > li{
+.she_grid_header > ul > li{
   display: inline;
 
 }
 
-.gev_grid_header > ul > li > a{
+.she_grid_header > ul > li > a{
   text-decoration: none;
   margin: 0 10px;
   color: var(--title-color-mobile);
 }
 
-.gev_grid_header > button{
+.she_grid_header > button{
   justify-self: end;
   border: none;
   padding: calc(var(--gutter-width) / 2) var(--gutter-width);
@@ -31,7 +31,7 @@
   text-transform: uppercase;
 }
 
-.gev_grid_body{
+.she_grid_body{
   display: grid;
   grid-template-columns:1fr 0.1fr;
   grid-template-rows: 0.2fr 0.2fr 3fr 0.2fr;
@@ -39,24 +39,24 @@
   margin: 0 calc(var(--gutter-width) * 2);
 }
 
-.gev_grid_body > H1{
+.she_grid_body > H1{
   justify-self: center;
 }
 
 
-.gev_grid_body > p{
+.she_grid_body > p{
   grid-row-start: 2;
   justify-self: center;
 }
 
-.gev_grid_body > ul{
+.she_grid_body > ul{
   grid-row-start: 3;
   justify-self: center;
 
 }
 
 
-.gev_grid_body-sidebar{
+.she_grid_body_sidebar{
   border: 1px solid #000;
   padding: var(--gutter-width);
   margin-top: var(--gutter-width);
@@ -67,7 +67,7 @@
 }
 
 
-.gev_grid_footer{
+.she_grid_footer{
   text-align: center;
   overflow: auto;
 

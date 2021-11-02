@@ -1,12 +1,12 @@
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  .gev_body{
+  .she_body{
     display: flex;
-    flex-direction: column;
+    flex_direction: column;
 
   }
 
-  .gev_footer{
+  .she_footer{
     left: 0; bottom: 0;
     width: 100%;
 
@@ -26,16 +26,16 @@
 
   /*Large devices (desktops, 992px and up)*/
   @media (min-width: 992px) {
-    .gev_body{
+    .she_body{
       display: flex;
       flex-direction: row;
     }
 
-    .gev_body-sidebar{
+    .she_body_sidebar{
       height: 100%;
     }
 
-    .gev_footer{
+    .she_footer{
       text-align: center;
       box-sizing: border-box;
 
