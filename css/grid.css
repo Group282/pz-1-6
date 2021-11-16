@@ -39,7 +39,7 @@ header {
 header .viti-button {
   border: none;
   padding: calc(var(--gutter-width) / 2) var(--gutter-width);
-  background: var(--button-color-mobile);
+  background: var(--button-color-desktop);
   color: white;
   text-transform: uppercase;
 }

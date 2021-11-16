@@ -14,7 +14,7 @@ header {
   box-sizing: border-box;
 }
 
-.virsta-header{
+.kuzmenko-header{
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
@@ -56,10 +56,12 @@ header .app-nav-list > li a {
 header .viti-button {
   border: none;
   padding: calc(var(--gutter-width) / 2) var(--gutter-width);
-  background: var(--button-color-mobile);
+  background: var(--button-color-desktop);
   color: white;
   text-transform: uppercase;
 }
+
+
 
 header > .viti-button {
   margin-left: 30vw;

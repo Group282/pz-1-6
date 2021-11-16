@@ -3,9 +3,9 @@
   --title-color-table: green;
   --title-color-desktop: blue;
 
-  --button-color-mobile: blue;
+  --button-color-mobile: red;
   --button-color-table: brown;
-  --button-color-desktop: red;
+  --button-color-desktop: blue;
   --button-color-all: gold;
 
   --gutter-width: 20px;

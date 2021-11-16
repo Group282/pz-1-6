@@ -21,6 +21,12 @@ h3 {
   font-weight: bold;
   color: var(--title-color-mobile);
 }
+header > input{
+  background: var(--button-color-desktop);
+}
+header .viti-button{
+  background: var(--button-color-desktop);
+}
 
 .clearfix::after {
   content: "";
@@ -61,12 +67,21 @@ h3 {
   header .app-main-btn {
     background: var(--button-color-table);
   }
+  header > input{
+    background: var(--button-color-table);
+  }
+header .viti-button{
+  background: var(--button-color-table);
+}
 
   h1 {
     color: var(--title-color-table);
   }
 
   h2 {
+    color: var(--title-color-table);
+  }
+  h3 {
     color: var(--title-color-table);
   }
 
@@ -103,14 +118,24 @@ h3 {
   }
 
   header .app-main-btn {
-    background: var(--button-color-desktop);
+    background: var(--button-color-mobile);
   }
+header > input{
+  background: var(--button-color-mobile);
+}
+  header .viti-button{
+    background: var(--button-color-mobile);
+  }
+
 
   h1 {
     color: var(--title-color-desktop);
   }
 
   h2 {
+    color: var(--title-color-desktop);
+  }
+  h3 {
     color: var(--title-color-desktop);
   }
 }
