@@ -42,7 +42,7 @@ header .app-main-btn {
     border: none;
     padding: calc(var(--gutter-width) / 2) var(--gutter-width);
     background: var(--button-color-mobile);
-    color: white;
+    color: rgb(131, 126, 126);
     text-transform: uppercase;
 }
 header > .app-main-btn {
@@ -52,17 +52,18 @@ header > .app-main-btn {
 /*main*/
 .app-main-wrap {
     margin: 0 calc(var(--gutter-width) * 2);
-    height: calc(100% - var(--header-height) - var(--footer-height));
+    height: calc(70% - var(--header-height) - var(--footer-height));
     box-sizing: border-box;
 }
 .app-main-wrap .app-main{
     text-align: center;
-    width: 100%;
+    width: 70%;
+    height: 70%;
 }
 .app-main-wrap .app-sidebar{
     border: 1px solid #000;
     float: left;
-    width: 100%;
+    width: 70%;
     box-sizing: border-box;
     padding: var(--gutter-width);
     margin-top: var(--gutter-width);
@@ -71,13 +72,16 @@ header > .app-main-btn {
     margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
 }
 .app-main-wrap .app-bg-cont img{
-    width: 100%;
+    width: 70%;
 }
 footer {
-    margin: 0 calc(var(--gutter-width) * 2);
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 100px;
     height: var(--footer-height);
     text-align: center;
     overflow: auto;
     box-sizing: border-box;
+    ;
 }
 

@@ -79,6 +79,6 @@ footer {
 .app-sidebar {
   grid-area: sidebar;
   padding: 20px;
-  border: 3px solid black;
+  border: 3px solid rgba(17, 19, 155, 0.904);
   margin: 5px;
 }
