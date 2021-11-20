@@ -24,7 +24,7 @@ h3 {
 header > input{
   background: var(--button-color-desktop);
 }
-header .viti-button{
+header .kuzmenko-button{
   background: var(--button-color-desktop);
 }
 
@@ -35,21 +35,21 @@ header .viti-button{
 }
 
 
-.app-table, .app-desktop {
+.kuzmenko-table, .kuzmenko-desktop {
   display: none;
 }
 
-.app-mobile {
+.kuzmenko-mobile {
   display: inline;
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  .app-table {
+  .kuzmenko-table {
     display: none;
   }
 
-  .app-mobile {
+  .kuzmenko-mobile {
     display: inline;
   }
 }
@@ -60,17 +60,17 @@ header .viti-button{
     color: var(--title-color-table);
   }
 
-  header .app-nav-list > li a {
+  header .kuzmenko-nav-list > li a {
     color: var(--title-color-table);
   }
 
-  header .app-main-btn {
+  header .kuzmenko-main-btn {
     background: var(--button-color-table);
   }
   header > input{
     background: var(--button-color-table);
   }
-header .viti-button{
+header .kuzmenko-button{
   background: var(--button-color-table);
 }
 
@@ -85,11 +85,11 @@ header .viti-button{
     color: var(--title-color-table);
   }
 
-  .app-mobile {
+  .kuzmenko-mobile {
     display: none;
   }
 
-  .app-table {
+  .kuzmenko-table {
     display: inline;
   }
 
@@ -97,11 +97,11 @@ header .viti-button{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .app-table {
+  .kuzmenko-table {
     display: none;
   }
 
-  .app-desktop {
+  .kuzmenko-desktop {
     display: inline;
   }
 }
@@ -112,18 +112,18 @@ header .viti-button{
     color: var(--title-color-desktop);
   }
 
-  header .app-nav-list > li a {
+  header .kuzmenko-nav-list > li a {
     text-decoration: none;
     color: var(--title-color-desktop);
   }
 
-  header .app-main-btn {
+  header .kuzmenko-main-btn {
     background: var(--button-color-mobile);
   }
 header > input{
   background: var(--button-color-mobile);
 }
-  header .viti-button{
+  header .kuzmenko-button{
     background: var(--button-color-mobile);
   }
 

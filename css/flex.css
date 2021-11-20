@@ -40,20 +40,20 @@ header > nav {
   margin-top: 7px;
 }
 
-.app-nav-list{
+.kuzmenko-nav-list{
   display: flex;
   flex-direction: row;
 }
 
-header .app-nav-list > li{
+header .kuzmenko-nav-list > li{
   margin-left: var(--gutter-width);
 }
-header .app-nav-list > li a {
+header .kuzmenko-nav-list > li a {
   text-decoration: none;
   color: var(--title-color-mobile);
 }
 
-header .viti-button {
+header .kuzmenko-button {
   border: none;
   padding: calc(var(--gutter-width) / 2) var(--gutter-width);
   background: var(--button-color-desktop);
@@ -63,43 +63,43 @@ header .viti-button {
 
 
 
-header > .viti-button {
+header > .kuzmenko-button {
   margin-left: 30vw;
   justify-content: flex-end;
 }
 
 /*main*/
-.app-main-wrap{
+.kuzmenko-main-wrap{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
 
-.app-main-wrap {
+.kuzmenko-main-wrap {
   margin: 0 calc(var(--gutter-width) * 2);
   height: calc(100% - var(--header-height) - var(--footer-height));
   box-sizing: border-box;
 }
 
-.app-main{
+.kuzmenko-main{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.app-main-wrap .app-sidebar{
+.kuzmenko-main-wrap .kuzmenko-sidebar{
   border: 1px solid #000;
   box-sizing: border-box;
   padding: var(--gutter-width);
   margin-top: var(--gutter-width);
 }
 
-.app-main-wrap .desc {
+.kuzmenko-main-wrap .desc {
   margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
 }
 
-.app-main-wrap .app-bg-cont img{
+.kuzmenko-main-wrap .kuzmenko-bg-cont img{
   width: 100%;
 }
 
@@ -109,7 +109,7 @@ footer {
   box-sizing: border-box;
 }
 
-.viti-footer{
+.kuzmenko-footer{
   display: flex;
   flex-direction: column;
   align-items: center;

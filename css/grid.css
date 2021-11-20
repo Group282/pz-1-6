@@ -28,7 +28,7 @@ header {
                   ". . botton" 20%;
 }
 
-.viti-header-text {
+.kuzmenko-header-text {
   grid-area: text;
   display: grid;
   grid-template: "text1 text1 text1" 50%
@@ -36,7 +36,7 @@ header {
   text-align: left;
 }
 
-header .viti-button {
+header .kuzmenko-button {
   border: none;
   padding: calc(var(--gutter-width) / 2) var(--gutter-width);
   background: var(--button-color-desktop);
@@ -44,24 +44,24 @@ header .viti-button {
   text-transform: uppercase;
 }
 
-.viti-header-text-h2 {
+.kuzmenko-header-text-h2 {
   grid-area: text1;
   margin: 6px;
 }
 
-.viti-header-text-text2 {
+.kuzmenko-header-text-text2 {
   grid-area: text2;
 }
 
-.viti-header-text-text3 {
+.kuzmenko-header-text-text3 {
   grid-area: text3;
 }
 
-.viti-header-text-text4 {
+.kuzmenko-header-text-text4 {
   grid-area: text4;
 }
 
-.viti-header-button {
+.kuzmenko-header-button {
   grid-area: botton;
   margin-left: 20vw;
 }
@@ -71,12 +71,12 @@ footer {
   text-align: center;
 }
 
-.app-main {
+.kuzmenko-main {
   grid-area: main;
   text-align: center;
 }
 
-.app-sidebar {
+.kuzmenko-sidebar {
   grid-area: sidebar;
   padding: 20px;
   border: 3px solid black;

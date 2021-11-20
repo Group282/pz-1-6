@@ -1,9 +1,9 @@
 :root {
-  --title-color-mobile: red;
+  --title-color-mobile: yellow;
   --title-color-table: green;
   --title-color-desktop: blue;
 
-  --button-color-mobile: red;
+  --button-color-mobile: yellow;
   --button-color-table: brown;
   --button-color-desktop: blue;
   --button-color-all: gold;

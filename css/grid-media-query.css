@@ -7,7 +7,7 @@
     ". . . botton" 50%;
   }
 
-  .viti-header-text {
+  .kuzmenko-header-text {
     grid-area: text;
     display: grid;
     grid-template: "text1 text2 text3 text4";
@@ -33,7 +33,7 @@
     height: 1vw;
   }
 
-  .viti-header-text {
+  .kuzmenko-header-text {
     grid-area: text;
     display: grid;
     grid-template: "text1 text2 text3 text4";
@@ -43,12 +43,12 @@
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .app-main-wrap .app-main {
+  .kuzmenko-main-wrap .kuzmenko-main {
     width: calc(75% - var(--gutter-width));
     margin: 0 var(--gutter-width) 0 0;
   }
 
-  .app-main-wrap .app-sidebar {
+  .kuzmenko-main-wrap .kuzmenko-sidebar {
     width: calc(25% - var(--gutter-width));
     margin: 0 0 0 var(--gutter-width);
   }
@@ -63,7 +63,7 @@
     margin: 0;
   }
 
-  .viti-header-text{
+  .kuzmenko-header-text{
     grid-area: text;
     display: grid;
     grid-template:

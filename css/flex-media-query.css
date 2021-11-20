@@ -12,7 +12,7 @@
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .app-main-wrap{
+  .kuzmenko-main-wrap{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -21,17 +21,17 @@
     align-items: stretch;
   }
 
-  .app-main{
+  .kuzmenko-main{
     width: 80vw;
   }
 
-  .app-sidebar{
+  .kuzmenko-sidebar{
     display: flex;
     width: 20vw;
     align-content: stretch;
   }
 
-  header > .viti-button {
+  header > .kuzmenko-button {
     margin-left: 50vw;
     justify-content: flex-end;
   }
