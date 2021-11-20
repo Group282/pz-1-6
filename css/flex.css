@@ -1,4 +1,4 @@
-.rno_header{
+.rno-header{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -7,21 +7,21 @@
 
 }
 
-.rno_header > H2 > a{
+.rno-header > H2 > a{
   text-decoration: none;
 }
 
-.rno_header > ul {
+.rno-header > ul {
   display: flex;
   align-self: center;
   margin-bottom: 12px;
   padding: 0 10px;
 }
-.rno_header > li{
+.rno-header > li{
   display: inline;
 }
 
-.rno_header > ul > li > a{
+.rno-header > ul > li > a{
   text-decoration: none;
   margin: 0 10px;
 
@@ -31,11 +31,11 @@
 
 }
 
-.rno_header > button{
+.rno-header > button{
   margin-left: auto;
 }
 
-.rno_header-button {
+.rno-header-button {
   border: none;
   padding: calc(var(--gutter-width) / 2) var(--gutter-width);
   background: var(--button-color-mobile);
@@ -43,7 +43,7 @@
   text-transform: uppercase;
 }
 
-.rno_body{
+.rno-body{
   margin: 0 calc(var(--gutter-width) * 2);
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@
 
 }
 
-.rno_body-centre{
+.rno-body-centre{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,18 +59,18 @@
 }
 
 
-.rno_body-centre > div >p{
+.rno-body-centre > div >p{
   text-align: center;
 }
 
 
-.rno_body-sidebar{
+.rno-body-sidebar{
   border: 1px solid #000;
   padding: var(--gutter-width);
   margin-top: var(--gutter-width);
 }
 
-.rno_footer{
+.rno-footer{
   text-align: center;
   overflow: auto;
 

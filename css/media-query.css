@@ -19,11 +19,11 @@ header > h2 > a {
   color: var(--title-color-mobile);
 }
 
-.rno_header > ul > li > a{
+.rno-header > ul > li > a{
   color: var(--title-color-mobile);
 }
 
-.rno_grid_header > ul > li > a{
+.rno-grid-header > ul > li > a{
   color: var(--title-color-mobile);
 }
 
@@ -58,11 +58,11 @@ header > h2 > a {
     background: var(--button-color-table);
   }
 
-  .rno_header-button {
+  .rno-header-button {
     background: var(--button-color-table);
   }
 
-  .rno_grid_header > button{
+  .rno-grid-header > button{
     background: var(--button-color-table);
   }
 
@@ -82,11 +82,11 @@ header > h2 > a {
     display: inline;
   }
 
-  .rno_header > ul > li > a{
+  .rno-header > ul > li > a{
     color: var(--title-color-table);
   }
 
-  .rno_grid_header > ul > li > a{
+  .rno-grid-header > ul > li > a{
     color: var(--title-color-table);
   }
 
@@ -115,11 +115,11 @@ header > h2 > a {
     background: var(--button-color-desktop);
   }
 
-  .rno_header-button {
+  .rno-header-button {
     background: var(--button-color-desktop);
   }
 
-  .rno_grid_header > button{
+  .rno-grid-header > button{
     background: var(--button-color-desktop);
   }
 
@@ -131,11 +131,11 @@ header > h2 > a {
     color: var(--title-color-desktop);
   }
 
-  .rno_header > ul > li > a{
+  .rno-header > ul > li > a{
     color: var(--title-color-desktop);
   }
 
-  .rno_grid_header > ul > li > a{
+  .rno-grid-header > ul > li > a{
     color: var(--title-color-desktop);
   }
 
@@ -158,11 +158,11 @@ header > h2 > a {
     background: var(--button-color-desktop);
   }
 
-  .rno_header-button {
+  .rno-header-button {
     background: var(--button-color-desktop);
   }
 
-  .rno_grid_header > button{
+  .rno-grid-header > button{
     background: var(--button-color-desktop);
   }
 
@@ -174,11 +174,11 @@ header > h2 > a {
     color: var(--title-color-desktop);
   }
 
-  .rno_header > ul > li > a{
+  .rno-header > ul > li > a{
     color: var(--title-color-desktop);
   }
 
-  .rno_grid_header > ul > li > a{
+  .rno-grid-header > ul > li > a{
     color: var(--title-color-desktop);
   }
 }
