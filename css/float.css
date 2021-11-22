@@ -1,32 +1,38 @@
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-
+.header {
+  position: relative;
 }
 
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
-
+.header > h2 {
+  float: left;
+  width: 100%;
 }
 
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-  .app_main_wrap .app_main{
-    float: left;
-    width: calc(75% - var(--gutter-width));
-    height: 100%;
-    margin:0 var(--gutter-width) 0 0;
-  }
-
-  .app_main_wrap .app_sidebar{
-    float: left;
-    width: calc(25% - var(--gutter-width));
-    height: 100%;
-    margin:0 0 0 var(--gutter-width);
-  }
+.header > nav {
+  float: left;
+  width: fit-content;
+  margin-left: 15%;
 }
 
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
+.header .app-nav-list > li{
+  float: left;
+  top: 12px;
+  position: relative;
 }
+
+.header > .button {
+  position: absolute;
+  float: right;
+  top: 23px;
+  right: 16px;
+}
+
+/* main*/
+.app-main{
+  height: 100%;
+}
+
+.app-main .content,
+.app-main .app-sidebar {
+  margin: 0 auto;
+}
+
