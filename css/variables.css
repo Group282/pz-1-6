@@ -1,16 +1,16 @@
 :root {
-  --title-color-mobile: red;
-  --title-color-table: green;
-  --title-color-desktop: blue;
+    --title-color-mobile: red;
+    --title-color-table: green;
+    --title-color-desktop: blue;
 
-  --button-color-mobile: blue;
-  --button-color-table: brown;
-  --button-color-desktop: red;
-  --button-color-all: gold;
+    --button-color-mobile: blue;
+    --button-color-table: brown;
+    --button-color-desktop: red;
+    --button-color-all: gold;
 
-  --gutter-width: 20px;
-  --header-height: 100px;
-  --footer-height: 100px;
+    --gutter-width: 20px;
+    --header-height: 100px;
+    --footer-height: 100px;
 
-  --container-width-mobile: 85vw;
+    --container-width-mobile: 85vw;
 }
