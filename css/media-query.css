@@ -22,7 +22,7 @@ h2 {
 }
 
 
-.app-table, .app-desktop {
+.mirosh-table, .mirosh-desktop {
   display: none;
 }
 
@@ -41,7 +41,7 @@ h2 {
     color: var(--title-color-table);
   }
 
-  header .app-main-btn {
+  header .mirosh-main-btn {
     background: var(--button-color-table);
   }
 
@@ -53,11 +53,11 @@ h2 {
     color: var(--title-color-table);
   }
 
-  .app-mobile {
+  .mirosh-mobile {
     display: none;
   }
 
-  .app-table {
+  .mirosh-table {
     display: inline;
   }
 
@@ -65,11 +65,11 @@ h2 {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .app-table {
+  .mirosh-table {
     display: none;
   }
 
-  .app-desktop {
+  .mirosh-desktop {
     display: inline;
   }
 }
@@ -85,7 +85,7 @@ h2 {
     color: var(--title-color-desktop);
   }
 
-  header .app-main-btn {
+  header .mirosh-main-btn {
     background: var(--button-color-desktop);
   }
 
