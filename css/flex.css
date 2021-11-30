@@ -8,14 +8,10 @@ body {
   height: 100%;
 }
 header {
-  padding: var(--gutter-width) calc(var(--gutter-width) * 2);
-  height: var(--header-height);
   display: flex;
-  align-items: center;
-  /* ALIGN-SELF: end; */
-  justify-content: flex-start;
-  align-content: flex-start;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+
 
 }
 
@@ -89,7 +85,9 @@ header > .mirosh-main-btn {
   margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
 }
 .mirosh-main-wrap .app-bg-cont img{
-  width: 100%;
+  position: relative;
+  height: 380px;
+  width: 700px;
 }
 footer {
   margin: 0 calc(var(--gutter-width) * 2);
