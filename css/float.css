@@ -1,38 +1,88 @@
-.header {
-  position: relative;
+html {
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial;
+    height: 100%;
 }
 
-.header > h2 {
-  float: left;
-  width: 100%;
+body {
+    height: 100%;
 }
 
-.header > nav {
-  float: left;
-  width: fit-content;
-  margin-left: 15%;
+header {
+    padding: var(--gutter-width) calc(var(--gutter-width) * 2);
+    height: var(--header-height);
+    box-sizing: border-box;
+}
+header > h2 {
+    float: left;
+    vertical-align: middle;
+    margin: 0;
+}
+header > h2 > a{
+    color: var(--title-color-mobile);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+header > nav {
+    float: left;
+    margin-top: 7px;
 }
 
-.header .app-nav-list > li{
-  float: left;
-  top: 12px;
-  position: relative;
+header .kuzmenko-nav-list > li{
+    float: left;
+    margin-left: var(--gutter-width);
+}
+header .kuzmenko-nav-list > li a {
+    text-decoration: none;
+    color: var(--title-color-mobile);
+}
+header .kuzmenko-main-btn {
+    border: none;
+    padding: calc(var(--gutter-width) / 2) var(--gutter-width);
+    background: var(--button-color-desktop);
+    color: white;
+    text-transform: uppercase;
+}
+header > .kuzmenko-main-btn {
+    float: right;
 }
 
-.header > .button {
-  position: absolute;
-  float: right;
-  top: 23px;
-  right: 16px;
+/*main*/
+.kuzmenko-main-wrap {
+    margin: 0 calc(var(--gutter-width) * 2);
+    height: calc(100% - var(--header-height) - var(--footer-height));
+    box-sizing: border-box;
 }
-
-/* main*/
-.app-main{
-  height: 100%;
+.kuzmenko-main-wrap .kuzmenko-main{
+    text-align: center;
+    width: 100%;
 }
+.kuzmenko-main-wrap .kuzmenko-sidebar{
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+}
+.kuzmenko-main-wrap .desc {
+    margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
+}
+.kuzmenko-main-wrap .kuzmenko-bg-cont img{
+    width: 50%;
+}
+footer {
+  margin: 0 calc(var(--gutter-width) * 2);
+  overflow: auto;
+  box-sizing: border-box;
+  clear: both;
+}
+footer {
+  margin: 0 calc(var(--gutter-width) * 2);
 
-.app-main .content,
-.app-main .app-sidebar {
-  margin: 0 auto;
+  text-align: center;
+  overflow: auto;
+  box-sizing: border-box;
+
 }
 
