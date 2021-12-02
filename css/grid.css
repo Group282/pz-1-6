@@ -7,7 +7,7 @@ body {
 
 
 .header {
-  grid-area: header; 
+  grid-area: header;
   display: grid;
   grid-template: "logo button"
                   "nav nav";

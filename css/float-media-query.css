@@ -12,14 +12,12 @@
   }
 }
 
-/*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   .header > .button {
     right: 0;
   }
 }
 
-/*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .app-main .content{
     float: left;
@@ -36,14 +34,12 @@
 
 }
 
-/*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   .app-main .app-sidebar{
     height: 840px;
   }
 }
 
-/*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
   .app-main .app-sidebar{
     height: 960px;
